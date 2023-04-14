@@ -1,6 +1,6 @@
 CREATE TABLE students 
 (
-    id NUMERIC(1),
+    id NUMERIC(1) PRIMARY KEY,
     firstname VARCHAR(40),
     lastname VARCHAR(80),
     age NUMERIC(3)
