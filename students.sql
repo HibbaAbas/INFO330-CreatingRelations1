@@ -1,25 +1,25 @@
 CREATE TABLE students 
 (
-    id NUMERIC(3),
+    id NUMERIC(1),
     firstname VARCHAR(40),
     lastname VARCHAR(80),
     age NUMERIC(3)
 );
 
 INSERT INTO students
-VALUES(1, 'Fred', 'Flintstone',35);
+VALUES (1, 'Fred', 'Flintstone', 35);
 
 INSERT INTO students
-VALUES(2, 'Wilma, 'Flintstone', 29);
+VALUES (2, 'Wilma, 'Flintstone', 29);
 
 INSERT INTO students
-VALUES(3, 'Barney', 'Rubble', 33);
+VALUES (3, 'Barney', 'Rubble', 33);
 
 INSERT INTO students
-VALUES(4, 'Betty', 'Rubble', 29);
+VALUES (4, 'Betty', 'Rubble', 29);
 
 INSERT INTO students 
-VALUES(5, 'Pebbles', 'Flintstone', 1);
+VALUES (5, 'Pebbles', 'Flintstone', 1);
 
 INSERT INTO students
-VALUES(6, 'Bam-Bam', 'Rubble', 1);
+VALUES (6, 'Bam-Bam', 'Rubble', 1);
